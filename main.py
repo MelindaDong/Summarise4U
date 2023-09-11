@@ -10,9 +10,10 @@ st.title("Summarize For You")
 # get the api key from the user
 st.session_state.api_key = st.text_input("Enter your OpenAI API key", value="", type="password")
 
-# create a .env file and add the api key to it
-with open(".env", "w") as f:
-    f.write(f"OPENAI_API_KEY={st.session_state.api_key}")
+if not st.session_state.api_key:
+    # create a .env file and add the api key to it
+    with open(".env", "w") as f:
+        f.write(f"OPENAI_API_KEY={st.session_state.api_key}")
 
 
 # check if 'file_uploaded' is in st.session_state
