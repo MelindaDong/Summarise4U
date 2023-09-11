@@ -7,12 +7,14 @@ import openai
 from langchain.callbacks import get_openai_callback
 from langchain.chat_models import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
+import streamlit as st
 
 from dotenv import load_dotenv
 import os
 # Load environment variables from .env file
 load_dotenv()
-api_key = os.environ.get("OPENAI_API_KEY")
+# api_key = os.environ.get("OPENAI_API_KEY")
+api_key = st.session_state.get("api_key", "")
 
 # Functions
 def extract_raw_text_from_pdf(file_path):
