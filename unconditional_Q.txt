@@ -1,0 +1,8 @@
+Research Problem: What problem is the paper addressing? Can you also describe the problem setting?
+Motivation: What is the motivation of the paper?
+Key Contributions: What is the key contributions of the paper?
+Methodology and Theoretical Underpinning: Describe the proposed method and its essential steps. If applicable, explain the theoretical framework upon which it's based.
+Resources: Which datasets, tools, and technologies were employed?
+Experiment Design: Outline the experimental design, including procedures, evaluation metrics, and how the method compares to existing solutions or benchmarks.
+Key Findings: What were the primary results, including performance on different benchmark datasets and any unexpected outcomes?
+
