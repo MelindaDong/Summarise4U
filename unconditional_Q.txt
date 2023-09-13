@@ -1,0 +1,8 @@
+What problem is the paper addressing? Can you also describe the problem setting?
+What is the motivation of the paper?
+What is the key contributions of the paper?
+Describe the proposed method and its essential steps. If applicable, explain the theoretical framework upon which it's based.
+Which datasets, tools, and technologies were employed?
+Outline the experimental design, including procedures, evaluation metrics, and how the method compares to existing solutions or benchmarks.
+What were the primary results, including performance on different benchmark datasets and any unexpected outcomes?
+
