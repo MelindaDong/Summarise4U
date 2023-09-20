@@ -42,7 +42,8 @@ if st.session_state.file_uploaded is False:
 
         # display the pdf file with markdown
         base64_pdf = base64.b64encode(st.session_state.pdf_content).decode("utf-8")
-        pdf_display_placeholder = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="800" style="border: none;"></iframe>'
+        # pdf_display_placeholder = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="800" style="border: none;"></iframe>'
+        pdf_display_placeholder = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="800" type="application/pdf"></iframe>'
         st.markdown(pdf_display_placeholder, unsafe_allow_html=True)
         st.markdown(" ")
         st.markdown(" ")
