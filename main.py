@@ -64,7 +64,7 @@ if st.session_state.file_uploaded is False:
             
         # if the summary is generated successfully then show the 'satisfied' button
         if st.session_state.answer != "":
-            satisfied_button  = st.button("Please refresh the page for the next paper")
+            satisfied_button  = st.button("Satisfied, Go for the next paper!")
             if satisfied_button:
                 # delete all session state variables except api_key
                 del st.session_state.file_uploaded 
@@ -102,7 +102,7 @@ elif st.session_state.file_uploaded is True and st.session_state.question is not
         
     # if the summary is generated successfully then show the 'satisfied' button
     if st.session_state.answer != "":
-        satisfied_button = st.button("Please refresh the page for the next paper")
+        satisfied_button = st.button("Satisfied, Go for the next paper!")
         if satisfied_button:
             # delete all session state variables except api_key
             del st.session_state.file_uploaded 
