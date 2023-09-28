@@ -2,6 +2,10 @@
 
 web page: https://summarise4u.streamlit.app
 
+Note: Firefox is recommanded, other browser might not display the pdf properly.
+
+It will take around 2 minutes to generate a summary please be patient. 
+
 A paper summarise application, Designed Computer Science papers.
 
 - Insert your openai API. Upload the paper you want to summarise, only PDF format allowed.
